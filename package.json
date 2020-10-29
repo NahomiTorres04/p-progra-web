@@ -1,0 +1,26 @@
+{
+  "name": "parcial-2-pw",
+  "version": "1.0.0",
+  "description": "entorno base para parcial 2 de programamcion web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahomiTorres04/p-progra-web.git"
+  },
+  "author": "Nahomi Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahomiTorres04/p-progra-web/issues"
+  },
+  "homepage": "https://github.com/NahomiTorres04/p-progra-web#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0",
+    "sass": "^1.27.1"
+  }
+}

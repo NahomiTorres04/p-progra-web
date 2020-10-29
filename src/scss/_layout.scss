@@ -1,0 +1,81 @@
+body {
+  background-color: $bckg;
+  margin: 0;
+}
+.text-center {
+  text-align: center;
+}
+#menu {
+  width: 100vw;
+  background-color: $bckgnav;
+  .container {
+    min-width: 100%;
+    .row {
+      display: flex;
+      justify-content: center;
+      .item {
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-family: $fontsubt;
+          color: $fontc;
+          font-weight: 1000;
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+      }
+      .item:nth-child(1) {
+        padding-left: 35px;
+        a {
+          padding: 0 10px;
+        }
+        align-self: left;
+      }
+      .item:nth-child(10) {
+        padding-right: 35px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+#banner {
+  width: 100vw;
+  height: auto;
+  background-image: url(/img/plantas/foto10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    min-width: 100%;
+    height: auto;
+    .row {
+      width: 100%;
+      height: 550px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .txt {
+        padding: 0 30px;
+        height: auto;
+        margin: 50px;
+        h4 {
+          font-family: $fonttitle;
+          font-size: 45px;
+        }
+        p {
+          font-family: $fontcontent;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
